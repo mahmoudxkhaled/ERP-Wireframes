@@ -2,8 +2,15 @@
 
 This repository contains static HTML wireframes for Phase 1. There is no JavaScript in the pages (per scope); basic inline CSS only.
 
+## 🌐 Live Demo
+
+**GitHub Pages:** [View Live Site](https://[username].github.io/ERP-Wireframes/)
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+
 ## Files
 
+- `index.html` — Homepage (Login page) - Main entry point for GitHub Pages
 - `login_wireframe.html` — Login page with Email, Password, Login, Forgot Password, Verify Email.
 - `reset_password_wireframe.html` — Reset password page with email input and send button.
 - `change_password_wireframe.html` — Change password page with new/confirm password fields.
@@ -14,6 +21,12 @@ This repository contains static HTML wireframes for Phase 1. There is no JavaScr
 
 ## Preview
 
+### Online (GitHub Pages)
+
+- Visit the live site: [https://[username].github.io/ERP-Wireframes/](https://[username].github.io/ERP-Wireframes/)
+
+### Local Development
+
 - Option 1: Double-click any `.html` file to open in your browser.
 - Option 2 (optional): Run a tiny static server for consistent asset serving:
   1. Install Node.js LTS if not present.
@@ -22,6 +35,21 @@ This repository contains static HTML wireframes for Phase 1. There is no JavaScr
      node mock/server.js
      ```
   3. Open `http://localhost:3000/login_wireframe.html`.
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow:
+
+1. Triggers on push to `main` branch
+2. Uses the official `actions/deploy-pages` action
+3. Deploys all HTML files to GitHub Pages
+4. Site is available at: `https://[username].github.io/ERP-Wireframes/`
+
+### Manual Setup (if needed)
+
+1. Go to repository Settings → Pages
+2. Source: GitHub Actions
+3. The site will be live at: `https://[username].github.io/ERP-Wireframes/`
 
 ## Notes
 
